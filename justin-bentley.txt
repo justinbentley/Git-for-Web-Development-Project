@@ -1,0 +1,97 @@
+Link to finished codepen: https://codepen.io/Jbentley93/pen/PoGZroO?editors=1100
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    sets up the structure for a website
+    2. What is HTML used for? 
+    creating content within the website
+    3. What is an attribute and where do we put it? 
+    Attributes are contained in the opening. they are used to define characteristics to a property.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tags are used for the title of the page. They should only be used once per webpage.
+    5. Name two tags that have required attributes
+    <img src><a href>
+    6. What do we put in the head of our HTML document? 
+    links to our css or js files, title, style, meta.
+    7. What is an id? 
+    An ID is an attribute used to specify an html element. Very specific.
+    8. What elements can I add an id to? 
+    you can add an id to any element, you cannot however have more than 1 element attached to an ID.
+    9. How many times can I use the same id on a page? 
+    1 id per element per page.
+    10. What is a class? 
+    class is similar to ID except it can be used on multiple elements to modify html.
+    11. What elements can I add a class to? 
+    You can add a class to any element.
+    12. How many times can I use the same class on a page? 
+    As many times as you want.
+    13. How do I get my link to open in a new tab?
+    after the anchor tag add "target='_blank'"
+    14. What is the alt attribute in the image tag used for? 
+    15. How do I reference an id?
+    16. What is the difference between a section and a div
+    section is semantic div is not. Semantic tags create an outline on the webpage.
+    17. What is CSS used for? 
+    It is used for styling html elements.
+    18. How to we select an element? Example - every h2 on the page
+    h2{} the element plus curly braces
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class is used to style multiple elements at once. ID is used to style 1 specific/important element. Class would be used to for adding a border to several different text boxes. Id would be used to style a singular item like a header.
+    20. How do we select classes in CSS?
+    .value (period)
+    21. How do we select a p element with a single class of “human””?
+    .human
+    22. What is a parent child selector? When would this be useful? 
+    Parent child selector selects all (child) elements under a specified (parent) element. This would be useful if you have a text box with different elements inside of it but you want all items to be affected by the same instructions.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{}
+    24. What is a pseudo selector?
+    allows you to modify a selected html element depending on the state of the selected element.
+    25. What do we use the change the spacing between lines?
+    line-height:value;
+    26. What do we use to change the spacing between letters?
+    letter-spacing:value;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:uppercase, text-transform:lowercase, text-transform:capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+    div{border: 1px dotted black;}
+    29. How do I select everything on the page? 
+    at the very top of the page put an asterisk with what you want to assign to everything. *{}
+    30. How do I write a comment in CSS?
+    /**/
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm myfile.rtf be careful because there are no safepoints that ask if you are sure you want to delete.
+    34. Why should I use version control? 
+    version control allows you to save your work thoughout different phases and go back to previous versions if you want to. 
+    35. How often should I commit to github?
+    every 20 minutes? often. As soon as you do a bit change.
+    36. What is the command we would use to push our repo up to github? 
+    git add . then git commit -m 'what you did'
+    37. Walk me through Lambda's git flow. 
+    Fork --> clone --> repo --> branch (git checkout -b 'myname'--> git add . --> git commit - m 'notes' --> git push -u origin 'myname' --> pull request on github --> select branch master --> select my repo --> create pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    inline elements dont break the line of code. block elements create a new line for the element.
+    2. What happens when an element is positioned absolutely? 
+    it disregards all other element boundaries. It comes to the front and scrolls with the page. Example is a nav bar that stays in the corner of the page as you scroll.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    create a parent child class and do 100% width on the child and have the ability to adjust the width of the parent?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block:<div>, <h1-h6>,<header>
+    inline:<span>, <a>
+    inline-block:<button>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    elements are considered boxes. the box model allows us to modify the spacing and surrounding of the content within those boxes. We use the box model to space the content how we want it. the fix is creating an element at the top that controls the size of all boxes throughout the page.
+
+
+
+   --> 
